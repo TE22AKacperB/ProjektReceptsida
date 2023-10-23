@@ -1,0 +1,31 @@
+.headclass{
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+
+    
+}
+
+.divclass{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+
+}
+h1{
+    background-color: #DDAEAE;
+    max-width: 400px;
+}
+
+h2{
+    background-color: #DDAEAE;
+    max-width: 99px;
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    padding-left:
+}
+
+body{
+   background-color: #BF8F6C;
+}
