@@ -27,5 +27,25 @@ h2{
 }
 
 body{
+    display: grid;
+    grid-template-columns:auto;
+
    background-color: #BF8F6C;
+}
+
+
+.NavClass{
+    display: grid;
+    max-height: 80%;
+    max-width: 20%;
+    background-color: #DDAEAE;
+}
+
+.ListClass{
+    font-size: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
 }
