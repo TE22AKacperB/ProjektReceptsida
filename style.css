@@ -1,62 +1,96 @@
-.headclass{
-
-    
-}
 
 .divclass{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr ;
     gap: 5px;
 }
 
 h1{
-    background-color: #DDAEAE;
+    background-color:rgba(221, 174, 174, 0.5);
+    grid-row: 1;
+    grid-column: 2 / 4;
     max-width: 400px;
+    margin-left: 100px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    border: solid black 2px;
 }
 
 h2{
-    background-color: #DDAEAE;
-    max-width: 99px;
-    max-height: 30px;
+    background-color:rgba(221, 174, 174, 0.5);
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 90px;
+    max-width: 130px;
+    margin-left: 210px;
+    max-height: 50px;
+    font-size: xx-large;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid black 2px;
+    
 }
 
 body{
-    
-    
-    grid-template-columns:auto;
-
-   background-color: #BF8F6C;
+   background-image: url(./img/77caddc95814666cb7ecddf19539b5df.jpg);
 }
 
-
-.NavClass{
-    border: solid black 3px;
-    height: px;
-    max-width: 50%;
-    margin-left: 20px;
-    grid-template-rows: 2/4;
-    background-color: #DDAEAE;
-}
-
-.ListClass{
+nav{
+  border: solid black 2px;
+    background-color:rgba(221, 174, 174, 0.5);
+    grid-row: 1/4;
+    grid-column: 1/3; 
+    width: 350px;
+    height: 656px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     font-size: 20px;
+    
+    
 }
 
-main{
-    grid-row: 2;
-    grid-column: 2;
+.ingridientImages{
+    grid-column: 1 / 3;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-top: 100px;
+    gap: 90px;
 }
 
-
-
-.pictureClass{
-    max-height: 150px;
-    width: 300px
+.ingridientImagesSize{
+    max-width: 100px;
+    max-height: 100px;
 }
-
-
 .stepListClass{
-    background-color: #DDAEAE;
-    max-width: 50%;
+    background-color:rgb(221, 174, 174, 0.5);
+    grid-column: 2/4;
+    grid-row: 2/4;
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    border: solid black 2px;
+    font-size: x-large;
+
+}
+.pictureClass{
+    max-height: 190px;
+    width: 440px
+
+}
+.mainClass{
+    grid-row: 1 / 3;
+    grid-column: 3/4;
+    margin-top: 70px;
+    margin-left: 25px;
+
+}
+
+li{
+    margin-bottom: 50px;
+    font-size: x-large;
 }
