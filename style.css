@@ -44,7 +44,7 @@ nav{
     grid-row: 1/4;
     grid-column: 1/3; 
     width: 350px;
-    height: 656px;
+    height: 750px;
     margin-top: 80px;
     margin-bottom: 50px;
     font-size: 20px;
@@ -58,7 +58,7 @@ nav{
     display: flex;
     flex-direction: column;
     margin-left: 230px;
-    margin-top: 100px;
+    margin-top: 140px;
     gap: 90px;
 }
 
@@ -77,6 +77,9 @@ nav{
     font-size: x-large;
 
 }
+.StepListClassV2{
+    margin-top: 40px;
+    }
 .pictureClass{
     max-height: 190px;
     width: 440px
@@ -87,10 +90,7 @@ nav{
     grid-column: 3/4;
     margin-top: 70px;
     margin-left: 25px;
-
 }
-
 li{
-    margin-bottom: 50px;
-    font-size: x-large;
+    margin-top: 58px;
 }
